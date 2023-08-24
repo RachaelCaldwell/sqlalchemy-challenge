@@ -14,13 +14,12 @@ The Module 10 Challenge uses Python and SQLAlchemy to do a basic climate analysi
 **Station Analysis**
 * Creates a query to calculate the total number of stations in the dataset
 * Creates a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281)
-* Creates a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281).
+* Creates a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281)
 * Creates a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations
 * Saves the query results to a Pandas DataFrame
+* Plots a histogram with bins=12 for the last year of data using tobs as the column to count
 
 **Part 2: Design Climate App**
-
-Correctly plot a histogram with bins=12 for the last year of data using tobs as the column to count
 Displays a precipitation route that:
 * Returns json with the date as the key and the value as the precipitation
 * Only returns the jsonified precipitation data for the last year in the database
