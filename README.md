@@ -2,7 +2,8 @@ The Module 10 Challenge uses Python and SQLAlchemy to do a basic climate analysi
 * **Part 1:** Analyze and Explore Climate Data
 * **Part 2:** Design Climate App
 
-**Part 1: Analyze and Explore the Climate Data**
+**Part 1: Climate Data Analysys**<br>
+
 **Precipitation Analysis**
 * Creates a query that finds the most recent date in the dataset (8/23/2017)
 * Creates a query that collects only the date and precipitation for the last year of data without passing the date as a variable
@@ -19,7 +20,7 @@ The Module 10 Challenge uses Python and SQLAlchemy to do a basic climate analysi
 * Saves the query results to a Pandas DataFrame
 * Plots a histogram with bins=12 for the last year of data using tobs as the column to count
 
-**Part 2: Design Climate App**
+**Part 2: Climate App**<br>
 Displays a precipitation route that:
 * Returns json with the date as the key and the value as the precipitation
 * Only returns the jsonified precipitation data for the last year in the database
